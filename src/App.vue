@@ -2,7 +2,7 @@
 import Header from './components/Header.vue';
 import Home from './pages/client/Home.vue';
 import Banner from './pages/client/Banner.vue';
-import Footer from './components/footer.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
