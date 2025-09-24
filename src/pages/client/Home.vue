@@ -1,4 +1,8 @@
+<script setup>
+import Banner from './Banner.vue';
+</script>
 <template>
+    <Banner></Banner>
     <div class="d-flex align-items-center justify-content-between">
         <h4 class="my-3">FEATURED PRODUCTS</h4>
         <a href="#" class="btn btn-outline-success btn-sm">VIEW ALL</a>
@@ -74,7 +78,8 @@
 
                 <div class="card-body">
                     <h5 class="card-title">Caramel Craze</h5>
-                    <p class="card-text two-line-ellipsis">A delightfully sweet and creamy coffee infused with a rich, buttery caramel flavor.</p>
+                    <p class="card-text two-line-ellipsis">A delightfully sweet and creamy coffee infused with a rich,
+                        buttery caramel flavor.</p>
                     <a href="#" class="btn btn-outline-success btn-sm">Go somewhere</a>
                 </div>
             </div>
@@ -88,7 +93,8 @@
 
                 <div class="card-body">
                     <h5 class="card-title">Dark Knight Roast</h5>
-                    <p class="card-text two-line-ellipsis">A powerful, smoky-flavored coffee with low acidity and a long, lingering finish.</p>
+                    <p class="card-text two-line-ellipsis">A powerful, smoky-flavored coffee with low acidity and a
+                        long, lingering finish.</p>
                     <a href="#" class="btn btn-outline-success btn-sm">Go somewhere</a>
                 </div>
             </div>
@@ -102,7 +108,8 @@
 
                 <div class="card-body">
                     <h5 class="card-title">Sunset Decaf</h5>
-                    <p class="card-text two-line-ellipsis">All the rich flavor of a classic roast, without the caffeine, for a relaxing evening cup.</p>
+                    <p class="card-text two-line-ellipsis">All the rich flavor of a classic roast, without the caffeine,
+                        for a relaxing evening cup.</p>
                     <a href="#" class="btn btn-outline-success btn-sm">Go somewhere</a>
                 </div>
             </div>
@@ -116,7 +123,8 @@
 
                 <div class="card-body">
                     <h5 class="card-title">Golden Hazelnut</h5>
-                    <p class="card-text two-line-ellipsis">A warm, nutty coffee with the irresistible aroma and taste of toasted hazelnuts.</p>
+                    <p class="card-text two-line-ellipsis">A warm, nutty coffee with the irresistible aroma and taste of
+                        toasted hazelnuts.</p>
                     <a href="#" class="btn btn-outline-success btn-sm">Go somewhere</a>
                 </div>
             </div>
@@ -124,10 +132,12 @@
     </div>
     <div class="row mt-5">
         <div class="col-xl-6 col-sm-12 box-slider">
-            <img class="img-fit-contain rounded" src="https://i.pinimg.com/736x/3e/a9/9a/3ea99a7e001b76b02ee2dee19a2f1cba.jpg" alt="">
+            <img class="img-fit-contain rounded"
+                src="https://i.pinimg.com/736x/3e/a9/9a/3ea99a7e001b76b02ee2dee19a2f1cba.jpg" alt="">
         </div>
         <div class="col-xl-6 col-sm-12 box-slider">
-            <img class="img-fit-contain rounded" src="https://i.pinimg.com/736x/22/08/e2/2208e2f94927a972a7dc45bc7dab2bcd.jpg" alt="">
+            <img class="img-fit-contain rounded"
+                src="https://i.pinimg.com/736x/22/08/e2/2208e2f94927a972a7dc45bc7dab2bcd.jpg" alt="">
         </div>
     </div>
 </template>
@@ -138,15 +148,15 @@
     overflow: hidden;
 }
 
-.box-slider {
-    height: 400px;
-    overflow: hidden;
-}
-
 .img-fit-contain {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.box-slider {
+    height: 400px;
+    overflow: hidden;
 }
 
 .two-line-ellipsis {
