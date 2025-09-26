@@ -14,8 +14,7 @@
                                 class="bi bi-house-door me-2"></i>Home</RouterLink>
                     </li>
                     <li class="nav-item">
-                        <RouterLink class="nav-link" to="/product"><i class="bi bi-view-list me-2"></i>Product
-                        </RouterLink>
+                        <RouterLink class="nav-link" to="/product"><i class="bi bi-view-list me-2"></i>Product</RouterLink>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
