@@ -1,11 +1,13 @@
 <script setup>
-import Header from '../../components/Header.vue';
+import Header from  '../../components/Head.vue';
+import Banner from '../client/Banner.vue';
 import Footer from '../../components/Footer.vue';
 </script>
 
 <template>
   <Header></Header>
-  <div class="container-fluid mt-5">
+  <Banner></Banner>
+  <div class="container">
     <RouterView></RouterView>
   </div>
   <Footer></Footer>
