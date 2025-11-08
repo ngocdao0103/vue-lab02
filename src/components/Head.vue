@@ -43,6 +43,10 @@ import { RouterLink } from 'vue-router';
                         <i class="bi bi-headset me-2"></i>
                         Contact  </RouterLink>
                     </li>
+                    <li class="nav-item"> <RouterLink class="nav-link" to="/admin">
+                        <i class="bi bi-headset me-2"></i>
+                        Admin  </RouterLink>
+                    </li>
 
                 </ul>
                 <form class="d-flex">

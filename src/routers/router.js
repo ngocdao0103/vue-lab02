@@ -28,7 +28,7 @@ const routes = [
     ]  
   },
   {
-    path: '/quantri',
+    path: '/admin',
     component: AdminLayout,
     children: [
       { path: '/admin/dashboard', component: Statistics },
